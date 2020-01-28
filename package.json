@@ -1,0 +1,28 @@
+{
+  "name": "sacms",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "env-cmd -f ./config/dev.env nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "crypto-random-string": "^3.0.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "mongodb": "^3.3.3",
+    "mongoose": "^5.7.5",
+    "validator": "^11.1.0"
+  },
+  "devDependencies": {
+    "env-cmd": "^9.0.3",
+    "nodemon": "^1.19.4"
+  },
+  "description": ""
+}
